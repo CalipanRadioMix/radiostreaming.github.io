@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Music Player Neumorphism</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Player Neumorphism</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="C:\Users\canta\Desktop\web radio 555\css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="player">
+    <div class="player__controls">
+      <div class="player__btn player__btn--small" id="previous">
+        <i class="fas fa-arrow-left"></i>
+      </div>
+      <h5 class="player__title">Radio GenAp</h5>
+      <div class="player__btn player__btn--small" id="icon-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+    <div class="player__album">
+      <img src="https://i.ibb.co/Ws63CmN/logo-radio-2.png" alt="Album Cover" class="player__img" loading="lazy" />
+    </div>
+
+    <h2 class="player__artist">En Vívo</h2>
+    <h3 class="player__song"></h3>
+
+    <input type="range" value="20" min="0" max="100" class="player__level" id="volume" />
+    <div class="audio-duration">
+      <div class="start">00:01</div>
+      <div class="end">04:30</div>
+    </div>
+
+    <audio class="player__audio" controls id="audio">
+      <source src="http://stream.zeno.fm/ajnldia1z5utv" type="audio/mpeg" />
+    </audio>
+
+    <div class="player__controls">
+      
+        
+      </div>
+
+      <div class="player__btn player__btn--medium blue play" id="play">
+        <i class="fas fa-play play-btn"></i>
+        <i class="fas fa-pause pause-btn hide"></i>
+      </div>
+
+      
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+	
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel.min.js'></script><script  src="C:\Users\canta\Desktop\web radio 555\scripts/script.js"></script>
+
+</body>
+</html>
