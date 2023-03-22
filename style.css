@@ -66,8 +66,8 @@ img {
 }
 
 .player__btn--small {
-  min-width: 50px;
-  min-height: 50px;
+  min-width: 65px;
+  min-height: 65px;
 }
 
 .player__title {
@@ -80,7 +80,7 @@ img {
 }
 
 .player__album {
-  width: 150px;
+  width: 250px;
 }
 
 .player__img {
@@ -149,8 +149,8 @@ img {
 }
 
 .player__btn--medium {
-  min-height: 70px;
-  min-width: 70px;
+  min-height: 90px;
+  min-width: 90px;
 }
 
 .blue {
